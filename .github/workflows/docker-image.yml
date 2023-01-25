@@ -28,7 +28,7 @@ jobs:
       run: docker build -t andywarrior07/docker-graphql:0.0.2 .
       
     - name: Push docker image
-      run: docker push andywarrior07/docker-graphql:0.0.2 .
+      run: docker push andywarrior07/docker-graphql:0.0.2
 
     
 #     - name: Build the Docker image
